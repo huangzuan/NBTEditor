@@ -25,8 +25,44 @@
 ## 依赖
 
 - Java 17 或以上
-- [Querz NBT](https://github.com/Querz/NBT)（已打包在 jar 内）
+- [Querz NBT](https://github.com/Querz/NBT)（已打包在内）
+- [JSON-java](https://github.com/stleary/JSON-java)（已打包在内）(v0.3以上需要)
 
 ## 打包
 
 项目结构建议：
+
+# NBT Editor
+
+A Minecraft NBT file editor built with Java Swing, allowing you to view, modify, add, and delete nodes—making it easy to manage game saves and data packs.
+
+## Features
+
+- Open NBT files (`.nbt`)
+- View the NBT tree structure
+- Double-click leaf nodes to edit values
+- Add new Compound, List, or String nodes
+- Delete nodes (except the root node)
+- Save files
+- Shortcut support: `Ctrl+S` (Windows/Linux) or `⌘+S` (Mac) to save
+
+## Usage
+
+1. Download and run `NBTEdit.jar`
+2. Open your NBT file
+3. Select nodes to perform actions:
+   - Double-click to edit a node's value
+   - Click **Add Node** to add a new node
+   - Click **Delete Node** to remove the selected node
+4. Click **Save File** or use the shortcut to save changes
+
+## Dependencies
+
+- Java 17 or higher
+- [Querz NBT](https://github.com/Querz/NBT) (included)
+- [JSON-java](https://github.com/stleary/JSON-java) (included) — required for v0.3+
+
+## Packaging
+
+Recommended project structure:
+
