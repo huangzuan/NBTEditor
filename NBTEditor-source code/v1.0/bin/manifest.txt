@@ -1,0 +1,2 @@
+Main-Class: NBTEdit
+Class-Path: lib/nbt-6.1.jar lib/json-20230618.jar
